@@ -1,0 +1,9 @@
+/* Ensure the body takes up the full height of the viewport */
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('download.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+}
